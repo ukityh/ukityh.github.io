@@ -183,6 +183,7 @@ p.tag {
  line-height: 1.3em;
 	border-top: 1px solid rgba(0,0,0,0.2);
 	opacity: 0.85;
+ margin-block-end: 0;
 }
 
 @media all and (max-width: 810px) {
