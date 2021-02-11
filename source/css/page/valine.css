@@ -1,0 +1,93 @@
+/* valine */
+.v[data-class=v] .vwrap {
+	margin-top: 3rem;
+	border: 1px solid rgba(0,0,0,0.2) !important;
+	box-shadow: 0 0 .5rem rgba(0,0,0,0.2);
+}
+
+.v[data-class=v] .vbtn {
+	color: #000 !important;
+	border-color: rgba(0,0,0, 0.3) !important;
+	box-shadow: 1px 0 2px rgba(0,0,0, 0.3);
+	cursor: pointer,auto !important;
+}
+
+.v[data-class=v] .vbtn:hover {
+ background-color: rgba(15,15,15,.9) !important;
+ color: var(--base-color-white) !important;
+}
+
+.v[data-class=v] .vicon {
+ fill: rgba(0,0,0,0.5) !important;
+	transition-duration: .2s;
+	cursor: pointer,auto !important;
+}
+
+.v[data-class=v] .vicon:hover {
+ fill: var(--base-color-hover) !important;
+ opacity: 1;
+}
+
+.v[data-class=v] .vcards .vcard .vquote {
+    border-left: 0 dashed rgba(0,0,0, 0.6) !important;
+	padding-left: 0 !important;
+}
+
+.v[data-class=v] .vcards .vcard .vh {
+	border-bottom: 0 dashed rgba(0,0,0, 0.6) !important;
+}
+
+.v[data-class=v] .vwrap .vheader .vinput {
+	border-bottom: 1px dashed rgba(0,0,0, 0.5) !important;
+	cursor: text,auto !important;
+}
+
+.v[data-class=v] .vpower a {
+    font-size: 1em !important;
+	cursor: pointer,auto;
+}
+
+.v[data-class=v] .vempty {
+	color: rgba(0,0,0, 0.7) !important;
+}
+
+.v[data-class=v] .status-bar, .v[data-class=v] .veditor, .v[data-class=v] .vinput, .v[data-class=v] p, .v[data-class=v] pre code {
+ color: #000 !important;
+ font-family: NotoSerifSC-Regular, sans-serif !important;
+}
+
+.v[data-class=v] .vsys, .v[data-class=v] .vtime {
+ color: rgba(0,0,0, 0.7) !important;
+	padding: 0 !important;
+	margin-right: .2em !important;
+}
+
+.v[data-class=v] .vcount {
+	font-family: SourceHanSerifCN, sans-serif;
+	font-size: 22px !important;
+ color: #000 !important;
+	padding: 1rem 0 0 !important;
+}
+
+.v[data-class=v] .vcards .vcard .vh .vmeta .vat {
+	transition-duration: .2s;
+	cursor: pointer,auto !important;
+}
+
+.v[data-class=v] .vcards .vcard .vh .vmeta .vat:hover {
+ color: var(--base-color-hover) !important;
+}
+
+.v[data-class=v] .vcards .vcard .vhead .vnick {
+ font-size: 1em;
+	margin-right: .5em !important;
+	cursor: pointer,auto !important;
+}
+
+.v[data-class=v] .vcards .vcard .vimg {
+	margin-right: 1rem !important;
+}
+
+.v[data-class=v] .vwrap .vedit textarea {
+	cursor: text,auto !important;
+}

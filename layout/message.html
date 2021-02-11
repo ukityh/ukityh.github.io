@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link type="text/css" rel="styleSheet" href="/source/css/main.css"/>
+ <link rel="stylesheet" href="/source/css/font-awesome.min.css"/>
+ <script type="text/javascript" src="/lib/jquery-3.5.1.min.js"></script>
+ <link rel="icon" href="/source/imgs/favicon.png"/>
+ <script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+ <title>留言板 | UTOPIA</title>
+</head>
+<body>
+ <header>
+  <div class="header-inner">
+   <script>$(".header-inner").load("/layout/partial/header.html")</script>
+  </div>
+ </header>
+
+<div class="author-inner">
+ <script>$(".author-inner").load("/layout/partial/author.html")</script>
+</div>
+
+<div class="main-inner">
+
+ <div class="content">
+  <div class="content-inner">
+   <div class="sidebar-left">
+   </div>
+
+   <div class="middle">
+
+   <div class="middle-bar">
+    <i class="fa fa-comments-o" aria-hidden="true"></i>留言板
+   </div>
+
+   <div class="middle-content">
+    <center>欢迎留言~</center>
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '3coGOW2AVL6yq8neXTLNk2zJ-MdYXbMMI',
+            appKey: 'gNIKPAHjt79p0SfOOrKFlNg7'
+        })
+    </script>
+   </div>
+   </div>
+
+   <div class="sidebar-right">
+   </div>
+  </div>
+ </div>
+</div>
+
+<footer>
+ <div class="footer-inner">
+  <script>$(".footer-inner").load("/layout/partial/footer.html")</script>
+ </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+.main-inner {
+  width: 1150px;
+  margin: auto;
+}
+
+.author {
+  width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+.author-avatar {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  bottom: 20px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 0 8px 4px rgba(0,0,0,.67);
+  transition-duration: .2s;
+}
+
+.author-avatar:hover {
+  box-shadow: 0 0 15px 4px rgba(0,0,0,.85);
+}
+
+.author-meta {
+  position: absolute;
+  left: 9em;
+  bottom: 1.8em;
+  color: #fff;
+  text-shadow: 0 0 8px var(--base-color-black);
+}
+
+.author-name {
+  font-size: 30px;
+  margin: 0 0 5px 2px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.content-inner {
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 15px 1px rgba(15,15,15,.7);
+}
+
+.sidebar-left {
+  width: 100px;
+  border-top-left-radius: var(--base-border-radus);
+  background-color: rgba(15,15,15,.8);
+}
+
+.sidebar-left ul {
+  position: sticky;
+  top: 2em;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.sidebar-left li {
+  font-family: SourceHanSerifCN, sans-serif;
+  font-size: 17px;
+  list-style: none;
+  width: 100px;
+  padding: 10px 0;
+  cursor: pointer;
+  transition-duration: .2s;
+}
+
+.sidebar-left li:hover {
+  box-shadow: 0 0 5px rgba(255,255,255,0.7) inset;
+}
+
+.list-item.active {
+ background-color:rgba(240,240,240,.8);
+ color: #000;
+}
+
+.list-item.active:hover {
+ box-shadow: 0 0 5px rgba(15,15,15,0.7) inset;
+}
+
+.sidebar-left a {
+  text-decoration: none;
+  color: var(--base-color-white)
+}
+
+.middle {
+  border-radius: var(--base-border-radus);
+  width: 950px;
+}
+
+.middle-bar {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 5px 7px;
+  background-color: rgba(15,15,15,.8);
+}
+
+.middle-bar p {
+  cursor: default;
+  text-shadow: 0 0 6px rgba(240,240,240,.3);
+}
+
+.middle-content {
+  background-color: rgba(240,240,240,.83);
+  box-shadow: 0 0 3px rgba(0,0,0,.7) inset;
+  min-height: 20em;
+  padding: 2em 3.5em 5em;
+  color: #000;
+}
+
+.sidebar-right {
+  width: 100px;
+  padding: 2em 0;
+  border-top-right-radius: var(--base-border-radus);
+  background-color: rgba(15,15,15,.82);
+}
+
+.footer-inner {
+  padding: 1.5em 2em .8em;
+  text-align: center;
+  font-size:13px;
+  font-family: NotoSerifSC-Regular, sans-serif;
+  line-height: 1.6em;
+  color: var(--base-color-white);
+  opacity: .98;
+  background-color: rgba(0,0,0,.7);
+  box-shadow: 0 0 10px 2px rgba(15,15,15,.7);
+}
+
+.footer-inner a {
+  text-decoration: none;
+}

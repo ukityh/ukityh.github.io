@@ -1,0 +1,25 @@
+.sidebar-right ul {
+ position: sticky;
+ top: 2em;
+ padding-top: 3em;
+ text-align: center;
+}
+
+.sidebar-right li {
+ font-family: SourceHanSerifCN, sans-serif;
+ font-size: 17px;
+ list-style: none;
+ width: 100px;
+ padding: 5px 0;
+ cursor: pointer;
+ transition-duration: .2s;
+}
+
+.sidebar-right li:hover {
+ box-shadow: 0 0 5px rgba(255,255,255,0.7) inset;
+}
+
+.sidebar-right a {
+ text-decoration: none;
+ color: var(--base-color-white)
+}

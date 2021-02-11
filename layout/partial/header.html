@@ -1,0 +1,50 @@
+<div class="nav">
+ <div class="nav-main">
+  <div class="site-name">UTOPIA</div>
+  <ul class="nav-first">
+  <li><a href="/index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;主 页</a></li>
+  <li id="li_1"><a style="cursor:default;" href="javascript:"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;日 志
+   <div class="nav-second">
+    <ul id="ul_1">
+     <li><a href="/layout/diary/index.html">人间游记</a></li>
+     <li><a href="/layout/amusement/index.html">娱 乐</a></li>
+    </ul>
+   </div>
+   </a></li>
+  <li id="li_2"><a href="/layout/ukitopia/index.html"><i class="fa fa-magic" aria-hidden="true"></i>&nbsp;原 创
+   <div class="nav-second">
+    <ul id="ul_2">
+     <li><a href="javascript:">宇宙灯塔</a></li>
+     <li><a href="javascript:">王家记事</a></li>
+     <li><a href="javascript:">永生 · 诗</a></li>
+    </ul>
+   </div>
+  </a></li>
+  <li><a href="/layout/friend.html"><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;友 链</a></li>
+  <li><a href="/layout/message.html"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;留言板</a></li>
+  <li id="li_3" style="position:absolute;right:3em;"><a style="cursor:default;" href="javascript:">关 于...
+   <div class="nav-second">  
+    <ul id="ul_3">
+     <li><a href="javascript:">建站日志</li>
+    </ul>
+   </div>
+  </a></li>
+  <li style="position:absolute;right:10px;width:50px;"><a href="https://travellings.now.sh/" target="blank" title="开往-友链接力">
+   <i class="fa fa-paper-plane-o" aria-hidden="true"></i></a></li>
+  </ul>
+ </div>
+</div>
+
+<script>
+// 顶部导航栏展开
+$(document).ready(function(){
+ var num;
+ $(".nav-first > li[id]").hover(function(){
+  var Obj = $(this).attr("id");
+  num = parseInt(Obj.substring(3, Obj.length));
+  $("#ul_" + num).slideDown(200);
+ }, function(){
+  $("#ul_" + num).fadeOut(150);
+ });
+});
+</script>

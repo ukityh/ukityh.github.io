@@ -1,0 +1,30 @@
+<p>&copy; Uki_HG <i class="fa fa-leaf" aria-hidden="true" style="color:green"></i>&nbsp;Since 2020<br/>
+ <a class="link-relay" href="https://travellings.now.sh/" target="blank" title="开往-友链接力">
+  <img src="https://cdn.jsdelivr.net/gh/volfclub/travellings@master/assets/b.png" alt="开往-友链接力" style="width:60px;opacity: 0.9;margin-top:5px;">
+ </a><br/>
+ UTOPIA&thinsp;已在宇宙中漂泊了<span id="timer-d"></span>&thinsp;天&thinsp;<span id="timer-h"></span>&thinsp;时&thinsp;<span id="timer-m"></span>&thinsp;分&thinsp;<span id="timer-s"></span>&thinsp;秒</p>
+<script>
+  function timer() {
+    var start = new Date('2020/06/14');
+    var t = new Date() - start;
+    var h = ~~(t / 1000 / 60 / 60 % 24);
+    if (h < 10) {
+        h = "0" + h;
+    }
+    var m = ~~(t / 1000 / 60 % 60);
+    if (m < 10) {
+        m = "0" + m;
+    }
+    var s = ~~(t / 1000 % 60);
+    if (s < 10) {
+        s = "0" + s;
+    }
+    document.getElementById('timer-d').innerHTML = ~~(t / 1000 / 60 / 60 / 24);
+    document.getElementById('timer-h').innerHTML = h;
+    document.getElementById('timer-m').innerHTML = m;
+    document.getElementById('timer-s').innerHTML = s;
+  }
+  timer();
+  setInterval(timer, 1000);
+  </script>
+</p>
