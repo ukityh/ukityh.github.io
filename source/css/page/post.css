@@ -186,7 +186,7 @@ p.tag {
 	opacity: 0.85;
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 810px) {
  .link-box > .box {
   height: 11em;
  }
