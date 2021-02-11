@@ -86,6 +86,8 @@
 
 .v[data-class=v] .vcards .vcard .vimg {
 	margin-right: 1rem !important;
+ width: 3.125em !important;
+ height: 3.125em !important;
 }
 
 .v[data-class=v] .vwrap .vedit textarea {
