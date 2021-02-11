@@ -70,12 +70,12 @@
  .sidebar-right {
   position: relative;
   top: 47px;
-  width: 70px;
+  width: 60px;
   display: none;
  }
 
  .sidebar-right ul,.sidebar-right li {
-  width: 70px;
+  width: 60px;
  }
 
  .footer-inner {
