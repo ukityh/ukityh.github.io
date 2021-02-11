@@ -13,6 +13,9 @@
  padding: 5px 0;
  cursor: pointer;
  transition-duration: .2s;
+ overflow: hidden;
+ text-overflow:ellipsis;
+ white-space: nowrap;
 }
 
 .sidebar-right li:hover {

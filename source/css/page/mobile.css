@@ -1,25 +1,25 @@
 @media all and (max-width: 1160px) {
-    .author {
-        width: auto;
-        padding: 0 5em;
-    }
+ .author {
+     width: auto;
+     padding: 0 5em;
+ }
 
-    .author-meta {
-        left: 14em;
-    }
+ .author-meta {
+     left: 14em;
+ }
 
-    .main-inner {
-        margin: 0;
-        padding: 0;
-        width: auto;
-    }
+ .main-inner {
+     margin: 0;
+     padding: 0;
+     width: auto;
+ }
 
-    .middle {
-        width: calc(100% - 200px);
-    }
+ .middle {
+     width: calc(100% - 200px);
+ }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 810px) {
  .author {
   padding: 0 1em;
  }
@@ -29,8 +29,9 @@
  }
 
  .sidebar-left {
-     position: absolute;
-     width: 100%;
+  min-height: 46px;
+  position: absolute;
+  width: 100%;
  }
 
  .sidebar-left ul {
@@ -67,37 +68,51 @@
  }
 
  .sidebar-right {
-     width: 0;
-     overflow: hidden;
-     padding: 0;
-     margin: 0;
+  position: relative;
+  top: 47px;
+  width: 70px;
+  display: none;
+ }
+
+ .sidebar-right ul,.sidebar-right li {
+  width: 70px;
  }
 
  .footer-inner {
-     margin: .8em 0 0;
+  margin: .8em 0 0;
  }
 }
 
 @media all and (max-width: 500px) {
-    .author img {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .author-meta {
-        left: 8.5em;
-        margin-right: 1em;
-    }
+ .author img {
+   width: 100px;
+   height: 100px;
+ }
+ 
+ .author-meta {
+  left: 8.5em;
+  margin-right: 1em;
+ }
 
-    .author-name {
-        font-size: 22px;
-    }
+ .author-name {
+  font-size: 22px;
+ }
 
-    .left-nav li{
-        width: 60px;
-    }
+ .left-nav li{
+  width: 60px;
+ }
 
-    .middle-content {
-     padding: 2em 8px 5em;
-    }
+ .middle-content {
+  padding: 2em 8px 5em;
+ }
+ 
+ .sidebar-right {
+  position: relative;
+  top: 47px;
+  width: 50px;
+ }
+
+ .sidebar-right ul,.sidebar-right li {
+  width: 50px;
+ }
 }
