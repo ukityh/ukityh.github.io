@@ -1,16 +1,16 @@
 @font-face {
 	font-family: 'UTOPIA';
-	src: url("/source/fonts/ALTRASHED-rough.ttf");
+	src: url("https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/fonts/ALTRASHED-rough.ttf");
 }
 
 @font-face {
 	font-family: 'NotoSerifSC-Regular';
-	src: url("/source/fonts/NotoSerifSC-Regular.otf");
+	src: url("https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/fonts/NotoSerifSC-Regular.otf");
 }
 
 @font-face {
 	font-family: 'SourceHanSerifCN';
-	src: url("/source/fonts/SourceHanSerifCN-Bold.otf");
+	src: url("https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/fonts/SourceHanSerifCN-Bold.otf");
 }
 
 *, body {
@@ -28,7 +28,7 @@ body:before {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: url("/source/imgs/background.jpg");
+	background: url("https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
