@@ -52,9 +52,8 @@
 .img-box {
 	text-align: center;
 	margin: 0 auto;
- width: 9em;
- height: 11em;
- border-radius: 4px;
+ width: 8.2em;
+ height: 10.2em;
 }
 
 .img-box img {
@@ -192,10 +191,27 @@ p.tag {
  }
  
  .img-box {
-  text-align: center;
-  margin: 0 auto;
   width: 7em;
   height: 9em;
-  border-radius: 4px;
+ }
+}
+
+@media all and (max-width: 500px) {
+ .link-box > .box {
+  height: 9.5em;
+  padding: .5em;
+ }
+ 
+ .img-box {
+  width: 5em;
+  height: 7em;
+ }
+
+ .link-box > .box h3 {
+  font-size: 17px;
+  width: 5em;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
  }
 }

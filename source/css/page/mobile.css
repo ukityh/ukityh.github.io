@@ -109,10 +109,10 @@
  .sidebar-right {
   position: relative;
   top: 47px;
-  width: 50px;
+  width: 35px;
  }
 
  .sidebar-right ul,.sidebar-right li {
-  width: 50px;
+  width: 35px;
  }
 }
