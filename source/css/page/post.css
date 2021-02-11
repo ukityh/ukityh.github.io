@@ -45,6 +45,7 @@
 .link-box > .box h3 {
  margin: 6px 0 0;
  padding: 0;
+ font-size: 19px;
  color: #000;
  text-align: center;
 }
@@ -159,7 +160,7 @@
  border: 1px dotted #000;
  padding: 0 2em;
  margin-top: 3.5em;
- line-height: 1.5em;
+ line-height: 1.6em;
 }
 
 @media all and (max-width: 500px) {
