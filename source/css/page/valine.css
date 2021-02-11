@@ -91,3 +91,7 @@
 .v[data-class=v] .vwrap .vedit textarea {
 	cursor: text,auto !important;
 }
+
+.v[data-class=v] .vcards .vcard .vcontent {
+ padding-top: 0 !important;
+}

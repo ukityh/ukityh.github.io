@@ -1,5 +1,14 @@
+.boxline {
+ list-style: none;
+ padding-left: 0 !important;
+}
+
+.boxline h3 {
+ text-align: center;
+}
+
 .box {
- padding: 1.5em;
+ padding: 1.5em 2.2em;
  margin: 1.5em 0;
  box-shadow: 0 0 5px rgba(0,0,0,0.4);
  transition-duration: .2s;
@@ -164,4 +173,14 @@
  .post-box:hover {
   padding: 0 17px 0 10px;
  }
+}
+
+p.tag {
+	font-size:13px;
+ padding-top: 3px;
+	margin-top: 40px;
+	text-align: center;
+ line-height: 1.3em;
+	border-top: 1px solid rgba(0,0,0,0.2);
+	opacity: 0.85;
 }

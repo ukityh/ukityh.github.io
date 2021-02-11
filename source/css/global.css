@@ -75,7 +75,6 @@ h1, h2, h3, h4, h5, h6 {
  font-family: SourceHanSerifCN, sans-serif;
  font-weight: bold;
  line-height: 1.5;
- margin: 20px 0 15px;
 }
 
 h1 {
@@ -85,29 +84,33 @@ h1 {
 }
 
 h2 {
- margin: 25px auto 15px;
+ margin: 30px auto 15px;
  font-size: 23px;
  text-align: center;
 }
 
 h3 {
- font-size: 21.5px;
+ font-size: 21px;
  padding-left: 0;
+ margin: 20px 0 15px;
 }
 
 h4 {
- font-size: 20px;
- padding-left: .3rem;
+ font-size: 19px;
+ padding-left: .5em;
+ margin: 15px 0 15px;
 }
 
 h5 {
- font-size: 19px;
- padding-left: .6rem;
+ font-size: 17px;
+ padding-left: 1em;
+ margin: 15px 0 5px;
 }
 
 h6 {
- font-size: 19px;
- padding-left: .9rem;
+ font-size: 16px;
+ padding-left: 1.5rem;
+ margin: 10px 0 5px;
 }
 
 hr {

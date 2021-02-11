@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link type="text/css" rel="styleSheet" href="/source/css/main.css"/>
+ <link rel="stylesheet" href="/source/css/font-awesome.min.css"/>
+ <script type="text/javascript" src="/lib/jquery-3.5.1.min.js"></script>
+ <link rel="icon" href="https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/favicon.png"/>
+ <script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+ <title>友链 | UTOPIA</title>
+</head>
+<body>
+ <header>
+  <div class="header-inner">
+   <script>$(".header-inner").load("/layout/partial/header.html")</script>
+  </div>
+ </header>
+
+<div class="author-inner">
+ <script>$(".author-inner").load("/layout/partial/author.html")</script>
+</div>
+
+<div class="main-inner">
+
+ <div class="content">
+  <div class="content-inner">
+   <div class="sidebar-left">
+   </div>
+
+   <div class="middle">
+   
+   <div class="middle-bar">
+    <i class="fa fa-address-book" aria-hidden="true"></i>友情链接
+   </div>
+
+   <div class="middle-content">
+    <h1>友链交换</h1><br/>
+    
+    <p>将本站添加入您的友链后，请告诉我以下信息：</p>
+    
+    <ol>
+    <li>您的昵称: </li>
+    <li>您的avatar: ##请以url形式告诉我，或者我将直接使用您站点中的头像链接</li>
+    <li>站点名字: </li>
+    <li>站点地址: </li>
+    <li>一个喜欢的颜色: </li>
+    </ol>
+    
+    <h2>本站信息</h2>
+    
+    <ul>
+    <li>站主: UkiHG</li>
+    <li>avatar: https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/avatar.jpg</li>
+    <li>站点名称: UTOPIA</li>
+    <li>站点地址: https://ishya.top</li>
+    <li>站点描述: 散落在世界一角的故事</li>
+    <li>颜色（如果您的页面需要的话）:  "#48d1cc"</li>
+   </ul>
+
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '3coGOW2AVL6yq8neXTLNk2zJ-MdYXbMMI',
+            appKey: 'gNIKPAHjt79p0SfOOrKFlNg7'
+        })
+    </script>
+   </div>
+   </div>
+
+   <div class="sidebar-right">
+    <ul class="right-nav">
+     <a href="/layout/link/friends.html"><li class="list-item">小伙伴</li></a>
+     <a href="/layout/link/exchange.html"><li class="list-item active">交换</li></a>
+    </ul>
+   </div>
+  </div>
+ </div>
+</div>
+
+<footer>
+ <div class="footer-inner">
+  <script>$(".footer-inner").load("/layout/partial/footer.html")</script>
+ </div>
+</footer>
+</body>
+</html>
