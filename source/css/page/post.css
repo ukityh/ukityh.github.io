@@ -32,7 +32,7 @@
  overflow: hidden;
  padding: 1em;
  margin: .5em;
- height: 12.2em;
+ height: 12em;
 }
 
 .link-box > .box:hover {
@@ -189,7 +189,7 @@ p.tag {
 
 @media all and (max-width: 810px) {
  .link-box > .box {
-  height: 11em;
+  height: 10.6em;
  }
  
  .img-box {
@@ -200,7 +200,7 @@ p.tag {
 
 @media all and (max-width: 500px) {
  .link-box > .box {
-  height: 9.5em;
+  height: 9em;
   padding: .5em;
  }
  
