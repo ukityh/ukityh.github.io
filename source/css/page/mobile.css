@@ -68,14 +68,17 @@
  }
 
  .sidebar-right {
-  position: relative;
-  top: 47px;
-  width: 60px;
-  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
  }
 
  .sidebar-right ul,.sidebar-right li {
-  width: 60px;
+  float: left;
+  top: 0;
+  padding-top: 0;
+  z-index: 10;
  }
 
  .footer-inner {
@@ -104,15 +107,5 @@
 
  .middle-content {
   padding: 2em 8px 5em;
- }
- 
- .sidebar-right {
-  position: relative;
-  top: 47px;
-  width: 35px;
- }
-
- .sidebar-right ul,.sidebar-right li {
-  width: 35px;
  }
 }
