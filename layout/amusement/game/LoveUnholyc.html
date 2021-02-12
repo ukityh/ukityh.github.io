@@ -6,6 +6,7 @@
  <link type="text/css" rel="styleSheet" href="/source/css/main.css"/>
  <link rel="stylesheet" href="/source/css/font-awesome.min.css"/>
  <script type="text/javascript" src="/lib/jquery-3.5.1.min.js"></script>
+ <script type="text/javascript" src="/lib/lazyload/jquery.lazyload.min.js"></script>
  <link rel="icon" href="https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/favicon.png"/>
  <title>Love Unholyc | UTOPIA</title>
 </head>
@@ -48,18 +49,18 @@
      </ul>
      <p>今天刚下载，玩了半小时，说实话个人感觉作为R12有点……用力过猛……也或许是因为我被社会主义的光芒笼罩后对R12产生了一定的误解Orz</p>
      <p>主要玩法类似《Mystic Messenger》聊天室，好像也有氪金电话包啥的，还有<del>非常R12的</del>视频通话，很强。</p>
-     <p><img src="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/lu_20201128.jpg" alt="Love Unholyc"/></p>
-     <p class="img-desc"><img src="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/lu_20201128_2.jpg" alt="Love Unholyc"/>鬼鬼，这实在是太猛了</p>
+     <p><img data-original="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/lu_20201128.jpg" alt="Love Unholyc"/></p>
+     <p class="img-desc"><img data-original="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/lu_20201128_2.jpg" alt="Love Unholyc"/>鬼鬼，这实在是太猛了</p>
      <p>不一定有耐心玩下去，但是不管怎么说难得遇到了一个让我起了一丝玩下去欲望的手游<del>绝不是因为太涩了</del>还是想开坑记录一下……<strong>随时弃坑</strong>。</p>
      <h2>一周目</h2>
      <h3>Day2 2020.11.29</h3>
-     <p><img src="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/lu_20201129.jpg" alt="Love Unholyc"/></p>
+     <p><img data-original="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/lu_20201129.jpg" alt="Love Unholyc"/></p>
      <p>无语，卡在这里等下一个聊天室了，差点以为我be了，我be了吗？
      <br/>太难受了，还不想快进，想保持游戏体验（。
      <br/>感觉剧情比MM吸引我一点，MM的话，主要我很受不了替身梗，尤其被当成替身的还是“我”…<del>（本人，代入党）</del>虽然最后大家都悟了Rika是Rika，MC是MC，但我还是不喜欢，因为MC的成功融入到底还是建立在被当成替身的开始……</p>
      <p>满脑子都是为什么管家不是可攻略角色啊？瞬间有种不祥的预感，就像当时火纹三房里我看到吉尔伯特都有和主角的双人结局为什么菲力克斯的爹没有？当时就感觉不太好，结果真的（）而且William这个flag立得……“我叫我的主人‘master’是因为我愿意为她付出生命”，还有“一想到（因为我们是永生的）以后我将会一直是你的Butler我就很头疼”，绝了，这是什么标准立flag姿势_(:з)∠)_我超喜欢管家啊_(:з)∠)_不要啊不要啊William千万不要死掉啊_(:з)∠)_（还没法看after ending</p>
      <p>感觉管家xMC太可爱了这种久违的上头感又回来了，我是不是又要一脚踏入北极圈了……怎会如此.jpg</p>
-     <p class="img-desc"><img src="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/lu_20201129_2.jpg" alt="William">无语，Butler大型立flag现场</p>
+     <p class="img-desc"><img data-original="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/lu_20201129_2.jpg" alt="William">无语，Butler大型立flag现场</p>
      <p>Sujee果然是一个emmm类似反派的角色吧……（。）希望大家理智追星（摊手）在谈论这个的时候舍友还给我分享了南韩私生饭的大无语事件，听得脊背发凉……</p>
      <p>因为想看一下有没有通关的人嚎一嚎是糖还是刀，结果猝不及防看到小红书上有人说是盗版魔鬼恋人……怎么这么脑瘫啊……
       <br/>（想到自己努力啃混乱族谱生肉的时候，因为实在没耐心啃了所以只通了一条线<del>，哪天找汉化玩玩看吧，反正已经补过票了</del>）</p>
@@ -100,4 +101,11 @@
  </div>
 </footer>
 </body>
+<script>
+ $(function(){
+  $("img").lazyload({
+  effect : "fadeIn"
+   });
+  });
+</script>
 </html>
