@@ -6,6 +6,7 @@
  <link type="text/css" rel="styleSheet" href="/source/css/main.css"/>
  <link rel="stylesheet" href="/source/css/font-awesome.min.css"/>
  <script type="text/javascript" src="/lib/jquery-3.5.1.min.js"></script>
+ <script type="text/javascript" src="/lib/lazyload/jquery.lazyload.min.js"></script>
  <link type="text/css" rel="styleSheet" href="/lib/jquery.fancybox.min.css"/>
  <script type="text/javascript" src="/lib/jquery.fancybox.min.js"></script>
  <link rel="icon" href="https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/favicon.png"/>
@@ -60,9 +61,9 @@
      <p>艾里克·普罗维丹斯之女，普罗维丹斯王国第十三任君主。母亲于她诞生的第二年间离世，于是年幼的艾雪被当时痛失爱人、陷入偏执境界的国王厌恶，随后被禁足在王城闲置的瞭望塔塔楼中，遭受到父亲肢体与精神上的暴力对待。</p>
      <p>禁足时期因继承人的身份接受父亲严苛的启蒙教育，经常被要求完成难以完成的背诵与读写任务，然而若是无法完成依然会受到严厉的惩罚，身上时常覆盖伤痕，这些伤痕直到后来使用高级药膏进行护理才得以褪去。年龄稍大后由于需要接受正统的王储教育而得以离开塔楼。穿着打扮并不起眼，常常被当作骑士或是管家的孩子。小心翼翼地面对接踵而来的新事物与陌生人，认为做错事或者没有合人心意就会受到他人的粗暴对待，这样的认知让艾雪以近乎以讨好的方式待人接物，却又盖不住内心的胆怯与懦弱，能逃避则逃避。再加上国王对她似乎并不看重，甚至有国王无意让她继承王位的流言，因此不讨人喜欢。绝大部分人对她的评价是“长得还算可爱”。</p>
      <p>并没有多少人知道她被禁足于塔楼中的过去。走出塔楼后，艾雪被从早到晚排满的课程几近逼疯，也没有什么娱乐。起先缺少对外界的认知，对此习以为常。然而在见过其他孩子与家长的互动后渐渐被负面情绪击垮，学业没有进展，精神状态欠佳。但是为了讨父亲的欢心，以及不想受到惩罚，一直勉强支撑着。对父亲有朝一日能够爱护自己抱有美好的幻想与渴望。</p>
-     <p class="img-desc"><a data-fancybox="gallery" href="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/Ishya_child.jpg"><img src="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/Ishya_child.jpg" alt="Ishya幼年外貌"></a>幼年外貌<br>图：Uki<br>2020-10-06</p>
+     <p class="img-desc"><a data-fancybox="gallery" href="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/Ishya_child.jpg"><img data-original="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/Ishya_child.jpg" alt="Ishya幼年外貌"></a>幼年外貌<br>图：Uki<br>2020-10-06</p>
      <p>后来的确与父亲关系好转，对父亲的恐惧转为敬畏。逐渐显露出孩童可爱的一面，曾经严苛教育的结果也渐渐以良好的方式反馈，并流露出一部分资质。以谦逊的待人方式博得了身边人的好感，被亲切地称呼为“小殿下(Your Little Highness)”。生怕给他人添麻烦，也生怕得不到父亲的回应，因此习惯将负面情绪自我消化。</p>
-     <p class="img-desc"><a data-fancybox="gallery" href="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/Ishya_littlehighness.jpg"><img src="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/Ishya_littlehighness.jpg" alt="小殿下"></a>小殿下<br>图：Uki<br>2019-12-26</p>
+     <p class="img-desc"><a data-fancybox="gallery" href="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/Ishya_littlehighness.jpg"><img data-original="https://hexo-1302421215.cos.ap-shanghai.myqcloud.com/Ishya_littlehighness.jpg" alt="小殿下"></a>小殿下<br>图：Uki<br>2019-12-26</p>
      <p>十三岁以普通市民的身份进入珈尔西亚公学就读，过程中逐渐意识到了自己即将要走上的道路，也结识了可靠的伙伴。擅长数学，觉得学习数学、探索规律可以将自己短暂地剥离现实，而并非喜欢算数本身。由于消息渠道与人们所知的“普通市民”不同，时常为要交出符合要求的文学和时政分析作业苦恼。尽管没什么架子，行为举止也并不像普通市民，不止一次被怀疑是某世袭贵族的子孙。但由于黑发金眸十分常见，又得益于王室的保密工作，继承人的年龄与性别不为人知，因此也并无人将其随意联想为王女。很平易近人，却让人感觉其实并不好接近。</p>
      <p>升入高等部后，在主校区的爱乐乐团中担任大提琴手，并在乐团与未来配偶科尔温·弗洛雷斯相识。但彼时二人除了乐团，并没有什么多余的交集。</p>
      <p>-以下部分待完善与整合-</p>
@@ -121,5 +122,12 @@
  </div>
 </footer>
 </body>
+<script>
+ $(function(){
+  $("img").lazyload({
+   effect : "fadeIn"
+  });
+ });
+</script>
 <script type="text/javascript" src="/source/js/nocopy.js"></script>
 </html>
