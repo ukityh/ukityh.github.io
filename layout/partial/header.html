@@ -1,7 +1,8 @@
 <div class="nav">
  <div class="nav-main">
   <div class="site-name">UTOPIA</div>
-  <ul class="nav-first">
+  <div><i id="mobile-menuicon" class="fa fa-bars" aria-hidden="true"></i></div>
+  <ul class="nav-first mobile-hidden">
   <li><a href="/index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;主 页</a></li>
   <li id="li_1"><a style="cursor:default;" href="javascript:"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;日 志
    <div class="nav-second">
@@ -22,16 +23,16 @@
   </a></li>
   <li><a href="/layout/link/friends.html"><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;友 链</a></li>
   <li><a href="/layout/message.html"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;留言板</a></li>
-  <li id="li_3" style="position:absolute;right:3em;"><a style="cursor:default;" href="javascript:">关 于...
+  <li id="li_3" style="position:absolute;right:2.5em;"><a style="cursor:default;" href="javascript:">关 于...
    <div class="nav-second">  
     <ul id="ul_3">
      <li><a href="/layout/about/site.html">建站日志</li>
     </ul>
    </div>
   </a></li>
-  <li style="position:absolute;right:10px;width:50px;"><a href="https://travellings.now.sh/" target="blank" title="开往-友链接力">
-   <i class="fa fa-paper-plane-o" aria-hidden="true"></i></a></li>
   </ul>
+  <div class="random-links"><a href="https://travellings.now.sh/" target="blank" title="开往-友链接力">
+   <i class="fa fa-paper-plane-o" aria-hidden="true"></i></a></div>
  </div>
 </div>
 
@@ -45,6 +46,10 @@ $(document).ready(function(){
   $("#ul_" + num).slideDown(200);
  }, function(){
   $("#ul_" + num).fadeOut(150);
+ });
+
+ $("#mobile-menuicon").click(function(){
+  $(".nav-first").slideToggle(100);
  });
 });
 </script>

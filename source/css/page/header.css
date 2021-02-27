@@ -75,3 +75,15 @@
 .nav-second li > a:hover {
   box-shadow: none;
 }
+
+.random-links {
+ position: fixed;
+ top: 8px;
+ right: -10px;
+ width: 50px;
+ font-size: 17px;
+}
+
+#mobile-menuicon {
+ display: none;
+}
