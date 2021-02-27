@@ -15,7 +15,7 @@
 }
 
 .box:hover {
- box-shadow: 0 0 10px rgba(0,0,0,0.7);
+ box-shadow: 0 0 5px rgba(0,0,0,.4);
 }
 
 .box > ul {
@@ -32,7 +32,7 @@
  overflow: hidden;
  padding: 1em;
  margin: .5em;
- height: 12em;
+ height: 10.8em;
 }
 
 .link-box > .box:hover {
@@ -45,7 +45,7 @@
 .link-box > .box h3 {
  margin: 6px 0 0;
  padding: 0;
- font-size: 19px;
+ font-size: 18px;
  color: #000;
  text-align: center;
 }
@@ -54,7 +54,7 @@
 	text-align: center;
 	margin: 0 auto;
  width: 8.2em;
- height: 10.2em;
+ height: 9.2em;
 }
 
 .img-box img {

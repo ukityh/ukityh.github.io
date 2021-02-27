@@ -1,0 +1,39 @@
+.friends {
+ display: flex;
+ flex-wrap: wrap;
+ text-align: center;
+}
+
+.friend-box {
+ overflow: hidden;
+ padding: 1em;
+ margin: .5em;
+ height: 8.5em;
+ transition-duration: .2s;
+ box-shadow: 0 0 5px rgba(15,15,15,.2);
+}
+
+.friend-box:hover {
+ transform: translateY(-5px);
+ -o-transform: translateY(-5px);
+ -moz-transform: translateY(-5px);
+ -webkit-transform: translateY(-5px);
+}
+
+.friend-box > h3 {
+ padding: 0;
+ margin: 0;
+ font-size: 18px;
+}
+
+.friends, .friend {
+ position: relative;
+ box-sizing: border-box;
+ display: inline-flex;
+}
+
+.friend-img-box img {
+	object-fit: cover;
+ width: 7em;
+ height: 7em;
+}
