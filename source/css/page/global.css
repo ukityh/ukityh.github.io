@@ -121,6 +121,12 @@
   background-color: rgba(15,15,15,.82);
 }
 
+footer {
+ opacity: .98;
+ background-color: rgba(0,0,0,.7);
+ box-shadow: 0 0 10px 2px rgba(15,15,15,.7);
+}
+
 .footer-inner {
   padding: 1.5em 2em .8em;
   text-align: center;
@@ -128,9 +134,8 @@
   font-family: NotoSerifSC-Regular, sans-serif;
   line-height: 1.6em;
   color: var(--base-color-white);
-  opacity: .98;
-  background-color: rgba(0,0,0,.7);
-  box-shadow: 0 0 10px 2px rgba(15,15,15,.7);
+  width: 80%;
+  margin: auto;
 }
 
 .footer-inner a {

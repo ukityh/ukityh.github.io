@@ -32,6 +32,7 @@
   min-height: 46px;
   position: absolute;
   width: 100%;
+  border-top-left-radius: 0;
  }
 
  .sidebar-left ul {
@@ -71,22 +72,28 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 0;
+  padding: 0 1em;
+  background-color: rgba(0,0,0,.9);
+  border-top-right-radius: 0;
  }
 
  .sidebar-right ul,.sidebar-right li {
   float: left;
   top: 0;
   padding-top: 0;
-  z-index: 10;
  }
 
  .sidebar-right li {
   width: 70px;
  }
 
+ footer {
+  background-color: #000;
+ }
+
  .footer-inner {
   margin: .8em 0 0;
+  padding: .1em 1em .5em;
  }
 
  #mobile-menuicon {
