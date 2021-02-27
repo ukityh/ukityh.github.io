@@ -187,27 +187,8 @@ p.tag {
  margin-block-end: 0;
 }
 
-@media all and (max-width: 810px) {
- .link-box > .box {
-  height: 10.6em;
- }
- 
- .img-box {
-  width: 7em;
-  height: 9em;
- }
-}
 
 @media all and (max-width: 500px) {
- .link-box > .box {
-  height: 9em;
-  padding: .5em;
- }
- 
- .img-box {
-  width: 5em;
-  height: 7em;
- }
 
  .link-box > .box h3 {
   font-size: 17px;

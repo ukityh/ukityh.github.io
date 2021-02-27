@@ -34,6 +34,6 @@
 
 .friend-img-box img {
 	object-fit: cover;
- width: 7em;
- height: 7em;
+ width: 7em !important;
+ height: 7em !important;
 }
