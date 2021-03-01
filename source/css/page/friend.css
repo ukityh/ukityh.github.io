@@ -8,6 +8,10 @@
 }
 
 .friend-box:hover {
+ box-shadow: 0 0 10px rgba(15,15,15,.5);
+}
+
+.friend-box:hover {
  transform: translateY(-5px);
  -o-transform: translateY(-5px);
  -moz-transform: translateY(-5px);
