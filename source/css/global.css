@@ -98,19 +98,19 @@ h3 {
 h4 {
  font-size: 19px;
  padding-left: .5em;
- margin: 15px 0 15px;
+ margin: 20px 0 15px;
 }
 
 h5 {
  font-size: 17px;
  padding-left: 1em;
- margin: 15px 0 5px;
+ margin: 20px 0 0;
 }
 
 h6 {
  font-size: 16px;
  padding-left: 1.5rem;
- margin: 10px 0 5px;
+ margin: 10px 0 0;
 }
 
 hr {
