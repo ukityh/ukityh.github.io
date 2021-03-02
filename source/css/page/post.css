@@ -23,6 +23,16 @@
  padding-left: 0;
 }
 
+.character-line {
+ display: inline-flex;
+ flex-wrap: wrap;
+}
+
+.character-avatar {
+ margin:auto;
+ margin: 0 1em;
+}
+
 .character-avatar img {
  height:8em !important;
  width: 8em !important;
