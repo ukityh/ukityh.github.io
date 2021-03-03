@@ -29,8 +29,8 @@
 }
 
 .character-avatar {
- margin:auto;
- margin: 0 1em;
+ margin: auto;
+ padding: 0 1em;
 }
 
 .character-avatar img {
