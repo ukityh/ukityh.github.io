@@ -19,7 +19,7 @@
  }
 }
 
-@media all and (max-width: 810px) {
+@media all and (max-width: 1000px) {
  .author {
   padding: 0 1em;
  }

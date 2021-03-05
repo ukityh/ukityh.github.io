@@ -102,7 +102,7 @@
 }
 
 	
-@media all and (max-width: 810px) {
+@media all and (max-width: 1000px) {
  #artitalk_main .shuoshuo_author_img img {
   height: 3.6em;
   width: 3.6em !important;
@@ -110,7 +110,7 @@
   right: 0;
   bottom: .7em;
  }
- 
+
  #artitalk_main img.atemoji {
   width: 28px !important;
  }
