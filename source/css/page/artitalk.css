@@ -110,6 +110,10 @@
   right: 0;
   bottom: .7em;
  }
+ 
+ #artitalk_main img.atemoji {
+  width: 28px !important;
+ }
 }
 
 @media all and (max-width: 500px) {

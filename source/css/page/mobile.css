@@ -68,6 +68,10 @@
   width: 100% !important;
  }
 
+ .box {
+  padding: 1.5em 1em !important;
+ }
+
  .sidebar-right {
   position: fixed;
   bottom: 0;
@@ -119,9 +123,9 @@
   float: none;
  }
 
-.nav a:hover {
- box-shadow: none;
- }
+ .nav a:hover {
+  box-shadow: none;
+  }
 
  .nav ul {
   position: fixed;
