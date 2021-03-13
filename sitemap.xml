@@ -167,6 +167,15 @@
   <lastmod>2021-03-13T04:32:26+00:00</lastmod>
   <priority>0.33</priority>
 </url>
-
+<url>
+  <loc>https://ishya.top/layout/about/site.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/about/site-hexo.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
 
 </urlset>
