@@ -1,18 +1,172 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc><![CDATA[http://ishya.top]]></loc>
-<lastmod>2021-02-12</lastmod>
-<changefreq>weekly</changefreq>
+  <loc>https://ishya.top/</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc><![CDATA[http://ishya.top/index.html]]></loc>
-<lastmod>2021-02-12</lastmod>
-<changefreq>weekly</changefreq>
+  <loc>https://ishya.top/index.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc><![CDATA[http://ishya.top/layout/index/say.html]]></loc>
-<lastmod>2021-02-12</lastmod>
-<changefreq>weekly</changefreq>
+  <loc>https://ishya.top/layout/index/say.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://ishya.top/layout/index/reward.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/game/MonochromeWizard.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/game.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/index.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/fanfiction.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/game/LoveUnholyc.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/game/Amnesia1.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/shuyingyin/index.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/shuyingyin/CyberLiterature.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/shuyingyin/TheShawshankRedemptionArticle.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/shuyingyin/TheLibraryAtMountChar1.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/fanfiction/FE3H.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/game/AmnesiaTV.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/amusement/shuyingyin/TheLibraryAtMountChar2.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/index.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/uki/index.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/yume/index.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/yume/Ivancilia.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/yume/fragments-1202012.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/witness/index.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/witness/character.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/providence/index.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/providence/character.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/providence/fragments.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/providence/fragments/202102.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/providence/fragments/202101.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/ukitopia/vampires/index.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/link/friends.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ishya.top/layout/message.html</loc>
+  <lastmod>2021-03-13T04:32:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
 </urlset>
