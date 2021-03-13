@@ -141,3 +141,30 @@ footer {
 .footer-inner a {
   text-decoration: none;
 }
+
+#backTopBtn {
+ position: fixed;
+ bottom: 2em;
+ right: 2em;
+ display: none;
+ width: 3em;
+ height: 3em;
+ border: 2px solid var(--base-color-white);
+ border-radius: 50%;
+ opacity: .8;
+ transition-duration: .2s;
+ cursor: pointer;
+ background-color: rgba(5,5,5,.2);
+}
+
+#backTopBtn:hover {
+ opacity: 1;
+ background-color: rgba(5,5,5,.25);
+}
+
+.fa.fa-angle-up {
+ font-size: 40px;
+ position: relative;
+ left: 11px;
+ top: 2px;
+}
